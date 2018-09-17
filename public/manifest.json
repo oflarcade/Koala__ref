@@ -1,0 +1,15 @@
+{
+  "short_name": "Koala Sticker",
+  "name": "Koala Sticker - E-Shop",
+  "icons": [
+    {
+      "src": "/src/assets/koala.png",
+      "sizes": "512X512 144x144 128x128 64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#00a8ff",
+  "background_color": "#000000"
+}

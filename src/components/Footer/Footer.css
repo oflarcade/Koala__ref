@@ -1,0 +1,72 @@
+.footer-container_outer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(54, 66, 101);
+    width: 100%;
+}
+.footer-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background: rgba(0, 168, 255,0);
+    padding: 0 25px 30px 25px;
+}
+
+.footer-logo__icon {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 150px;
+    
+}
+
+.footer-left-container div {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.footer-left__title {
+    font-family: 'Passion One', cursive;
+    font-weight: 100;
+    font-size: 1.4rem;
+    color:white;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.footer-social-icons {
+    width: 40px;
+    height: 40px;
+    padding: 0.3rem;
+}
+
+.footer-map-container {
+    width:  320px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+
+.footer-left-container__map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.card-button div :hover {
+    cursor: pointer;
+    border: 1px;
+    border-color: brown;
+}
